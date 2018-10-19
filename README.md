@@ -1,24 +1,11 @@
-# README
+## Implement the following user story:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+  As a Trello user
+  I want a PDF export of selected Trello cards
+  So I can archive/share them easily
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
+## Commands
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  - rails new trello_card_printer -T
