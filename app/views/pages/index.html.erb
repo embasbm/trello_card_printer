@@ -1,6 +1,6 @@
 
-<%= form_tag("/", method: "get") do %>
-  <%= label_tag(:q, "Ticket card:") %>
+<%= form_tag("/", method: "get", class: 'search_form') do %>
+  <%= label_tag(:q, 'Ticket card:') %>
     <div class="row">
     <%= text_area_tag(:q) %>
     </div>
