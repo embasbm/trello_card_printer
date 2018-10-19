@@ -1,0 +1,371 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.trello.com/1/cards/uuVT2tNZ?key=ed96e5b303600fa840b1d3109398a184&token=4fe301100eee0bd3970dfde31ce4f03c52379bb7f0c393a454bd93d87475de6a
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Frame-Options:
+      - DENY
+      Strict-Transport-Security:
+      - max-age=15552000
+      X-Download-Options:
+      - noopen
+      Surrogate-Control:
+      - no-store
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Trello-Version:
+      - 1.1420.0
+      X-Trello-Environment:
+      - Production
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST, DELETE
+      Access-Control-Allow-Headers:
+      - Authorization, Accept, Content-Type
+      X-Rate-Limit-Api-Key-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Api-Key-Max:
+      - '300'
+      X-Rate-Limit-Api-Key-Remaining:
+      - '299'
+      X-Rate-Limit-Api-Token-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Api-Token-Max:
+      - '100'
+      X-Rate-Limit-Api-Token-Remaining:
+      - '99'
+      X-Rate-Limit-Member-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Member-Max:
+      - '200'
+      X-Rate-Limit-Member-Remaining:
+      - '199'
+      X-Server-Time:
+      - '1539988811022'
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"475-IKjvun3UUcPNUwB6G6HxAGpSfP4"
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Fri, 19 Oct 2018 22:40:11 GMT
+      Content-Length:
+      - '1141'
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - dsc=04fe65eed7a4191e26c81d4263a83ad4213872193109834430be995e231c08c2; Path=/;
+        Expires=Mon, 22 Oct 2018 22:40:10 GMT; Secure
+    body:
+      encoding: UTF-8
+      string: '{"id":"5bc9f497e780091d87405723","badges":{"votes":0,"attachmentsByType":{"trello":{"board":0,"card":0}},"viewingMemberVoted":false,"subscribed":false,"fogbugz":"","checkItems":2,"checkItemsChecked":0,"comments":0,"attachments":0,"description":true,"due":null,"dueComplete":false},"checkItemStates":[],"closed":false,"dueComplete":false,"dateLastActivity":"2018-10-19T15:18:02.584Z","desc":"Foo
+        Bar","descData":{"emoji":{}},"due":null,"email":null,"idBoard":"5bc9f46dafc61384c5713b4e","idChecklists":["5bc9f58f240c842c1aeccde0","5bc9f596dbed572442c7ddc7"],"idList":"5bc9f4849cac4e1d8ff142d7","idMembers":[],"idMembersVoted":[],"idShort":1,"idAttachmentCover":null,"labels":[{"id":"5bc9f46da724a908c02d3b13","idBoard":"5bc9f46dafc61384c5713b4e","name":"label
+        1","color":"green"},{"id":"5bc9f46da724a908c02d3b14","idBoard":"5bc9f46dafc61384c5713b4e","name":"label
+        2","color":"yellow"}],"idLabels":["5bc9f46da724a908c02d3b14","5bc9f46da724a908c02d3b13"],"manualCoverAttachment":false,"name":"Task
+        1","pos":65535,"shortLink":"uuVT2tNZ","shortUrl":"https://trello.com/c/uuVT2tNZ","subscribed":false,"url":"https://trello.com/c/uuVT2tNZ/1-task-1"}'
+    http_version: 
+  recorded_at: Fri, 19 Oct 2018 22:40:11 GMT
+- request:
+    method: get
+    uri: https://api.trello.com/1/checklists/5bc9f58f240c842c1aeccde0?key=ed96e5b303600fa840b1d3109398a184&token=4fe301100eee0bd3970dfde31ce4f03c52379bb7f0c393a454bd93d87475de6a
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Frame-Options:
+      - DENY
+      Strict-Transport-Security:
+      - max-age=15552000
+      X-Download-Options:
+      - noopen
+      Surrogate-Control:
+      - no-store
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Trello-Version:
+      - 1.1420.0
+      X-Trello-Environment:
+      - Production
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST, DELETE
+      Access-Control-Allow-Headers:
+      - Authorization, Accept, Content-Type
+      X-Rate-Limit-Api-Key-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Api-Key-Max:
+      - '300'
+      X-Rate-Limit-Api-Key-Remaining:
+      - '298'
+      X-Rate-Limit-Api-Token-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Api-Token-Max:
+      - '100'
+      X-Rate-Limit-Api-Token-Remaining:
+      - '98'
+      X-Rate-Limit-Member-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Member-Max:
+      - '200'
+      X-Rate-Limit-Member-Remaining:
+      - '198'
+      X-Server-Time:
+      - '1539988811711'
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '294'
+      Etag:
+      - W/"126-leuje1yvOzYcTiMVE4+9/TtvwH8"
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Fri, 19 Oct 2018 22:40:11 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - dsc=eae7fdcbf2258b348ee44938e49c0458128828ca471afbde93d450d333acb95e; Path=/;
+        Expires=Mon, 22 Oct 2018 22:40:11 GMT; Secure
+    body:
+      encoding: UTF-8
+      string: '{"id":"5bc9f58f240c842c1aeccde0","name":"checklist 1","idBoard":"5bc9f46dafc61384c5713b4e","idCard":"5bc9f497e780091d87405723","pos":16384,"checkItems":[{"idChecklist":"5bc9f58f240c842c1aeccde0","state":"incomplete","id":"5bc9f5a4492fd22c78fdc4ea","name":"taks
+        1","nameData":null,"pos":16952}]}'
+    http_version: 
+  recorded_at: Fri, 19 Oct 2018 22:40:11 GMT
+- request:
+    method: get
+    uri: https://api.trello.com/1/checklists/5bc9f596dbed572442c7ddc7?key=ed96e5b303600fa840b1d3109398a184&token=4fe301100eee0bd3970dfde31ce4f03c52379bb7f0c393a454bd93d87475de6a
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Frame-Options:
+      - DENY
+      Strict-Transport-Security:
+      - max-age=15552000
+      X-Download-Options:
+      - noopen
+      Surrogate-Control:
+      - no-store
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Trello-Version:
+      - 1.1420.0
+      X-Trello-Environment:
+      - Production
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST, DELETE
+      Access-Control-Allow-Headers:
+      - Authorization, Accept, Content-Type
+      X-Rate-Limit-Api-Key-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Api-Key-Max:
+      - '300'
+      X-Rate-Limit-Api-Key-Remaining:
+      - '297'
+      X-Rate-Limit-Api-Token-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Api-Token-Max:
+      - '100'
+      X-Rate-Limit-Api-Token-Remaining:
+      - '97'
+      X-Rate-Limit-Member-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Member-Max:
+      - '200'
+      X-Rate-Limit-Member-Remaining:
+      - '197'
+      X-Server-Time:
+      - '1539988812053'
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '294'
+      Etag:
+      - W/"126-a/RMJFktqrHFjI7D2uHGshyyh+s"
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Fri, 19 Oct 2018 22:40:12 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - dsc=e398497d4d18094b131438e6fcb6f5a5e48051cd8b44227d0d4a72d6418149c0; Path=/;
+        Expires=Mon, 22 Oct 2018 22:40:12 GMT; Secure
+    body:
+      encoding: UTF-8
+      string: '{"id":"5bc9f596dbed572442c7ddc7","name":"checklist 2","idBoard":"5bc9f46dafc61384c5713b4e","idCard":"5bc9f497e780091d87405723","pos":32768,"checkItems":[{"idChecklist":"5bc9f596dbed572442c7ddc7","state":"incomplete","id":"5bc9f5aa980da33836d3c52a","name":"task
+        1","nameData":null,"pos":17254}]}'
+    http_version: 
+  recorded_at: Fri, 19 Oct 2018 22:40:12 GMT
+- request:
+    method: get
+    uri: https://api.trello.com/1/cards/rFeY74R8?key=ed96e5b303600fa840b1d3109398a184&token=4fe301100eee0bd3970dfde31ce4f03c52379bb7f0c393a454bd93d87475de6a
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Dns-Prefetch-Control:
+      - 'off'
+      X-Frame-Options:
+      - DENY
+      Strict-Transport-Security:
+      - max-age=15552000
+      X-Download-Options:
+      - noopen
+      Surrogate-Control:
+      - no-store
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store
+      Pragma:
+      - no-cache
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00
+      X-Content-Type-Options:
+      - nosniff
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Trello-Version:
+      - 1.1420.0
+      X-Trello-Environment:
+      - Production
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST, DELETE
+      Access-Control-Allow-Headers:
+      - Authorization, Accept, Content-Type
+      X-Rate-Limit-Api-Key-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Api-Key-Max:
+      - '300'
+      X-Rate-Limit-Api-Key-Remaining:
+      - '296'
+      X-Rate-Limit-Api-Token-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Api-Token-Max:
+      - '100'
+      X-Rate-Limit-Api-Token-Remaining:
+      - '96'
+      X-Rate-Limit-Member-Interval-Ms:
+      - '10000'
+      X-Rate-Limit-Member-Max:
+      - '200'
+      X-Rate-Limit-Member-Remaining:
+      - '196'
+      X-Server-Time:
+      - '1539988812652'
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '830'
+      Etag:
+      - W/"33e-rPr1SdF+3uTX3dMVyF+P8aC8auc"
+      Vary:
+      - Accept-Encoding
+      Date:
+      - Fri, 19 Oct 2018 22:40:12 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - dsc=71c2835c6bf329d67ce01ec22f58d342d9849ffbc96bab2fd577f9fb0a69be2c; Path=/;
+        Expires=Mon, 22 Oct 2018 22:40:12 GMT; Secure
+    body:
+      encoding: UTF-8
+      string: '{"id":"5bc9f499240a432cff785704","badges":{"votes":0,"attachmentsByType":{"trello":{"board":0,"card":0}},"viewingMemberVoted":false,"subscribed":false,"fogbugz":"","checkItems":0,"checkItemsChecked":0,"comments":0,"attachments":0,"description":true,"due":null,"dueComplete":false},"checkItemStates":[],"closed":false,"dueComplete":false,"dateLastActivity":"2018-10-19T15:16:39.141Z","desc":"Foo
+        Bar\n","descData":{"emoji":{}},"due":null,"email":null,"idBoard":"5bc9f46dafc61384c5713b4e","idChecklists":[],"idList":"5bc9f4849cac4e1d8ff142d7","idMembers":[],"idMembersVoted":[],"idShort":2,"idAttachmentCover":null,"labels":[],"idLabels":[],"manualCoverAttachment":false,"name":"Task
+        2","pos":131071,"shortLink":"rFeY74R8","shortUrl":"https://trello.com/c/rFeY74R8","subscribed":false,"url":"https://trello.com/c/rFeY74R8/2-task-2"}'
+    http_version: 
+  recorded_at: Fri, 19 Oct 2018 22:40:12 GMT
+recorded_with: VCR 4.0.0
