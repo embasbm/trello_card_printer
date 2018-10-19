@@ -1,10 +1,11 @@
 ## Implement the following user story:
 
-  As a Trello user
-  I want a PDF export of selected Trello cards
-  So I can archive/share them easily
-
-
+  App to fetch taskas from Trello API and show fields:
+    - title
+    - description
+    - labels
+    - checklists
+    - URL of the card
 
 ## Commands
 
